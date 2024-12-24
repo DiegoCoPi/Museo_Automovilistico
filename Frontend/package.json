@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "author": "Diego Corrales",
   "license": "ISC"
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0"
+  }
 }
