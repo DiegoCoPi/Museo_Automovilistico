@@ -1,16 +1,11 @@
 {
-  "name": "museo_frontend",
+  "name": "backend_page",
   "version": "1.0.0",
-  "description": "frontend_pagina",
+  "description": "backend_pagina",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "author": "Diego Corrales",
   "license": "ISC"
-  "description": "",
-  "dependencies": {
-    "react": "^19.0.0"
-  }
 }
