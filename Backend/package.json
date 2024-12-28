@@ -4,8 +4,13 @@
   "description": "backend_pagina",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc"
   },
   "author": "Diego Corrales",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  }
 }
