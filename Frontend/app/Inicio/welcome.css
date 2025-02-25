@@ -9,21 +9,19 @@
     font-weight: bold;
     margin-bottom: 20px;
     text-align:center;
-    text-shadow: 3px 3px 5px yellow;
-    font-family:'Roboto', greek-ext
+    font-family: "Jim Nighshade", cursive;
+    -webkit-text-stroke: 2px #f5e507;
 }
 
 .second_title{
     font-size:35px;
     text-align:center;
     margin:30px;
-    text-shadow: 3px 3px 5px yellow;
 }
 
 .paragraph {
-    font-size: 40px;
+    font-size: 30px;
     margin:30px;
     max-width: 1500px;
     text-align: justify;
-    font-family: 'Roboto', math
   }

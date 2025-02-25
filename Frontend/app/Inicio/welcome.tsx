@@ -1,9 +1,11 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import "./welcome.css"
+import { Menu } from "~/Menu/menu";
 
 export function Welcome() {
   return (
+    <>
     <main className="main">
       <h1 className="title">¡Bienvenidos al museo del Automovil!</h1>
       <p className="paragraph">
@@ -14,10 +16,17 @@ export function Welcome() {
         <h2 className="second_title">Aqui te mostramos algunas de las secciones que nuestros visitantes van</h2>
       <section className="flex flex-col items-center justify-center pt-16 pb-4 text-center">
         <section>
-          <p img="">Si eres amante de la época de los 70’s a los 90’s esta sección es para ti en donde tenemos los mejores e iconicos ejemplares. ¡Animate!</p>
+          <p>
+            Si eres amante de la época de los 70’s a los 90’s esta sección es para ti en donde tenemos los mejores e 
+            iconicos ejemplares. ¡Animate!
+          </p>
+          <p>
+            ¿Eres amante de las peliculas, el cine y la música?
+          </p>
         </section>
       </section>
     </main>
+    </>
   );
 }
 
